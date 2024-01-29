@@ -70,9 +70,11 @@ The absolute path to the public key is `/Users/qiwenxu/.ssh/id_rsa.pub`.
 
 The pictures of the paths of both key.
 ![Image](截屏2024-01-25 上午11.27.06.png)
+
 ![Image](截屏2024-01-29 下午2.54.00.png)
 
 The picture of log into the ieng6 account without being asked for a password.
+
 ![Image](截屏2024-01-29 下午2.57.49.png)
 
 
