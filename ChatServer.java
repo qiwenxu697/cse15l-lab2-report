@@ -13,7 +13,7 @@ class Handler implements URLHandler {
             } else {
                 return "No messages yet!";
             }
-        } else if (url.getPath().contains("/add-message")) { //add message
+        } else if (url.getPath().contains("/add-message")) {
             String query = url.getQuery();
             String[] parameters = query.split("&");
             String message = "";
@@ -23,13 +23,14 @@ class Handler implements URLHandler {
                 String[] keyValue = parameter.split("=");
                 if (keyValue.length == 2) {
                     if (keyValue[0].equals("s")) {
-                        message = keyValue[1].replace("+", " "); // replace '+' to ' '
-                        messages.add(message);
+                        message = keyValue[1].replace("+", " "); // replace '+' to space for the message
                     } else if (keyValue[0].equals("user")) {
                         user = keyValue[1];
-                        users.add(user);
                     }
                 }
+                messages.add(message);
+                users.add(user);
+
             }
             return toString(users,messages);
         } else {
