@@ -11,5 +11,20 @@ For this screenshot, there are the methods my code called:
 - This method takes a URLHandler object and a port number. This method creates request entrypoint and starts a server.
 - new Handler() and a port number, which gets from args[0], are the argument passed into the medthod.
 - The server creates using the port number
+
+For this screenshot, there are the methods my code called:
+`url.getQuery()` - not argument
+`query.split("&")` - argument is "&"
+`parameter.split("=")` - argument is "="
+`keyValue[0].equals("s")` - argument is "s"
+`keyValue[1].replace("+", " ")` - argument is "s"
+`messages.add(message)` - argument is `message`
+`eyValue[0].equals("user")` - argument is "user"
+`messages.add(message)` - argument is `message`
+`users.add(user)` - argument is `user`
+`toString(users,messages)` - argument is `user` and `message`
+
+
+
 After `/add-message?s=How are you&user=yash`
 ![Image](截屏2024-01-28 下午2.17.48.png)
