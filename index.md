@@ -1,6 +1,6 @@
 # week 3 lab report
 ## Part 1
-After `/add-message?s=Hello&user=jpolitz`
+### After `/add-message?s=Hello&user=jpolitz`
 ![Image](截屏2024-01-28 下午2.14.44.png)
 
 For this screenshot, there are the methods my code called:
@@ -32,7 +32,7 @@ For this screenshot, there are the methods my code called:
 The value of the arraylist `messages` in the Handler class is [Hello]. The value of the arraylist `users` in the Handler class is [jpolitz]. 
 `messages.add(message)` adds the `message` string to the field `message` in the Handler class, and `users.add(user)` adds the `user` string to the field `users`.
 
-After `/add-message?s=How are you&user=yash`
+### After `/add-message?s=How are you&user=yash`
 ![Image](截屏2024-01-28 下午2.17.48.png)
 
 For this screenshot, there are the methods my code called:
