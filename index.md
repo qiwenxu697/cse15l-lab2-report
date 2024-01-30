@@ -77,4 +77,5 @@ The picture of log into the ieng6 account without being asked for a password.
 
 ![Image](截屏2024-01-29 下午2.57.49.png)
 
-
+## Part 3
+I learn that how to set up the SSH keys to access account easily. The `scp` command copies files or directories between a local and a remote system or between two remote systems. The `mkdir` command creates new directories. The `man` command displays the manual pages for various commands, programs, and system functions.
