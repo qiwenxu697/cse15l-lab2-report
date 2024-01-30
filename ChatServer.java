@@ -11,7 +11,7 @@ class Handler implements URLHandler {
             if (!messages.isEmpty()) {
                 return toString(users,messages);
             } else {
-                return "No messages yet!";
+                return "No messages yet";
             }
         } else if (url.getPath().contains("/add-message")) {
             String query = url.getQuery();
