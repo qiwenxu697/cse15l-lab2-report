@@ -135,12 +135,17 @@ The value of the arraylist `messages` in the Handler class is [Hello, How are yo
 
 ## Part 2
 The absolute path to the private key is `/Users/giwenxu/.ssh/id_rsa`. 
-The absolute path to the public key is `/Users/qiwenxu/.ssh/id_rsa.pub`.
+The absolute path to the public key is `/home/linux/ieng6/oce/1b/qix007/.ssh/id_rsa.pub`.
 
-The pictures of the paths of both key.
+The pictures of the paths of private key.
 ![Image](截屏2024-01-25 上午11.27.06.png)
 
 ![Image](截屏2024-01-29 下午2.54.00.png)
+
+The pictures of the paths of public key.
+
+<img width="478" alt="截屏2024-02-13 下午11 27 00" src="https://github.com/qiwenxu697/cse15l-lab2-report/assets/147675962/66c2390b-a0b0-44de-8f64-5a5c2535f607">
+
 
 The picture of log into the ieng6 account without being asked for a password.
 
